@@ -11,6 +11,89 @@ body {
   background-size: cover;
 }
 
+/*.resume-section {
+  background: url(nyc.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}*/
+
+.services-section {
+  background: url(nyc.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/*.contact-section {
+  background: url(nyc.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}*/
+
 .navbar {
   margin-bottom: 0px;
+}
+
+.resume-section-header {
+  font-size: 18pt;
+  font-weight: 500;
+}
+
+#resume-item-uni {
+  font-size: 13pt;
+  margin-left: 0pt;
+}
+
+#resume-item-major, #resume-item-ums {
+  font-size: 12pt;
+  font-style: italic;
+  margin-left: 10px;
+}
+
+#resume-item-ums {
+  margin-left: -5px;
+  font-style: normal;
+}
+
+.resume-item-date {
+  font-size: 10pt;
+}
+
+@media (max-width: 400px) {
+
+  #profiles-stackoverflow {
+    margin-left: 7pt;
+  }
+
+  #so-link {
+    margin-left: -20pt;
+  }
+
+  #profiles-linkedin {
+    margin-left: -5pt;
+  }
+
+  #profiles-github {
+    margin-left: -5pt;
+  }
+
+  .lang {
+    margin-left: -15pt;  
+  }
+
+  .resume-section-header {
+    font-size: 12pt;
+    font-weight: 500;
+    text-align: left;
+  }
+
+  .resume-item-normal {
+    font-size: 10pt;
+    font-weight: 400;
+  }
 }
