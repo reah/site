@@ -11,13 +11,9 @@ body {
   background-size: cover;
 }
 
-/*.resume-section {
-  background: url(nyc.png) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}*/
+.resume-section {
+  padding-bottom: 50px;
+}
 
 .services-section {
   background: url(nyc.png) no-repeat center center fixed;
@@ -39,10 +35,81 @@ body {
   margin-bottom: 0px;
 }
 
+#experience {
+  margin-bottom: 5px;
+}
+
+.logo-container {
+  max-width: 150px;
+  height: auto;
+  margin-top: -5px;
+}
+
+#ibmlogo {
+  max-width: 200px;
+}
+
+#intuitlogo {
+  max-width: 80px;
+  margin-top: -10px;
+}
+
+#jpllogo {
+  max-width: 75px;
+}
+
+#nasajpl {
+  color: black;
+  font-size: 13pt;
+  font-weight: bold;
+}
+
+#twitter, #scheme {
+  font-size: 13pt;
+  font-weight: bold;
+}
+
+.resume-container {
+  border-style: solid;
+  padding-bottom: 10px;
+}
+
+.bullets {
+  text-align: left;
+}
+
+.subbullets {
+  list-style: none;
+}
+
+.subbullets:before {
+  content: " - ";
+}
+
+#resume-item-intuit {
+  margin-top: 10px;
+}
+
 .resume-section-header {
   font-size: 18pt;
   font-weight: 500;
 }
+
+.flag {
+  margin-left: 5px;
+  width: 55px;
+}
+
+#ruletest {
+  font-weight: bold;
+  font-style: italic;
+}
+
+#uav, #ieee, #calsol, #hab {
+  font-weight: bold;
+}
+
+/*
 
 #resume-item-uni {
   font-size: 13pt;
@@ -64,28 +131,20 @@ body {
   font-size: 10pt;
 }
 
+#eng {
+  margin-left: -55px;
+}
+
+#heb {
+  margin-left: -45px;
+}
+
+#spa {
+  margin-left: -35px;
+}
+*/
+
 @media (max-width: 400px) {
-
-  #profiles-stackoverflow {
-    margin-left: 7pt;
-  }
-
-  #so-link {
-    margin-left: -20pt;
-  }
-
-  #profiles-linkedin {
-    margin-left: -5pt;
-  }
-
-  #profiles-github {
-    margin-left: -5pt;
-  }
-
-  .lang {
-    margin-left: -15pt;  
-  }
-
   .resume-section-header {
     font-size: 12pt;
     font-weight: 500;
@@ -95,5 +154,9 @@ body {
   .resume-item-normal {
     font-size: 10pt;
     font-weight: 400;
+  }
+
+  .flags {
+    margin-right: 5px;
   }
 }
