@@ -35,6 +35,10 @@ body {
   margin-bottom: 0px;
 }
 
+.date {
+  font-size: 10pt;
+}
+
 #experience {
   margin-bottom: 5px;
 }
@@ -45,17 +49,40 @@ body {
   margin-top: -5px;
 }
 
+#resume-item-jpl {
+  margin-top: 5px;
+}
+
+#berkeley {
+  max-width: 125px;
+  margin-bottom: 5px;
+}
+
 #ibmlogo {
   max-width: 200px;
+  margin-top: -5px;
 }
 
 #intuitlogo {
   max-width: 80px;
+  margin-left: -25px;
   margin-top: -10px;
 }
 
 #jpllogo {
-  max-width: 75px;
+  max-width: 65px;
+}
+
+#nasa {
+  font-weight:600;
+  font-size: 18px;
+}
+
+#cit {
+  font-weight:600;
+  margin-left: 100px;
+  margin-top: -20px;
+  font-size: 18px;
 }
 
 #nasajpl {
@@ -86,7 +113,19 @@ body {
   content: " - ";
 }
 
-#resume-item-intuit {
+/*#uni-date {
+    margin-top: -35px;
+}*/
+
+#scheme {
+  margin-left: -35px;
+}
+
+.project-bullet {
+  margin-left: 20px;
+}
+
+#resume-item-intuit, #intuit-date, #jpl-date {
   margin-top: 10px;
 }
 
@@ -105,58 +144,38 @@ body {
   font-style: italic;
 }
 
+#coursework {
+  margin-left: -20px;
+}
+
+.courses {
+  text-align: left;
+}
+
 #uav, #ieee, #calsol, #hab {
   font-weight: bold;
 }
 
-/*
-
-#resume-item-uni {
-  font-size: 13pt;
-  margin-left: 0pt;
-}
-
-#resume-item-major, #resume-item-ums {
-  font-size: 12pt;
-  font-style: italic;
+#resume-item-major {
   margin-left: 10px;
 }
 
-#resume-item-ums {
-  margin-left: -5px;
-  font-style: normal;
+@media (max-width: 1200px) {
+  #scheme {
+    margin-left: -20px;
+  }
 }
-
-.resume-item-date {
-  font-size: 10pt;
-}
-
-#eng {
-  margin-left: -55px;
-}
-
-#heb {
-  margin-left: -45px;
-}
-
-#spa {
-  margin-left: -35px;
-}
-*/
 
 @media (max-width: 400px) {
-  .resume-section-header {
-    font-size: 12pt;
-    font-weight: 500;
-    text-align: left;
+  #scheme {
+    margin-left: -20px;
   }
 
-  .resume-item-normal {
-    font-size: 10pt;
-    font-weight: 400;
+  #ibmlogo {
+    max-width: 175px;
   }
 
-  .flags {
-    margin-right: 5px;
+  #intuitlogo {
+    max-width: 75px;
   }
 }
