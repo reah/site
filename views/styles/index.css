@@ -53,6 +53,11 @@ body {
   margin-top: 5px;
 }
 
+#seal {
+  max-width: 50px;
+  margin-top: -5px;
+}
+
 #berkeley {
   max-width: 125px;
   margin-bottom: 5px;
