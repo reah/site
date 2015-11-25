@@ -165,22 +165,63 @@ body {
   margin-left: 10px;
 }
 
-@media (max-width: 1200px) {
-  #scheme {
-    margin-left: -20px;
-  }
+/* ExtraSmall devices (tablets, 768px and up) */
+@media(max-width:767px){
 }
 
-@media (max-width: 400px) {
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  #cit {
+    margin-left: 50px;
+  }
   #scheme {
     margin-left: -20px;
   }
 
   #ibmlogo {
-    max-width: 175px;
+    max-width: 195px;
+  }
+
+  #jpllogo {
+    max-width: 55px;
+    margin-left: -55px;
   }
 
   #intuitlogo {
     max-width: 75px;
+  }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  #cit {
+    max-width: 2000px;
+    margin-left: 95px;
+  }
+  #scheme {
+    margin-left: -20px;
+  }
+  #ibmlogo {
+    max-width: 175px;
+  }
+
+  #jpllogo {
+    margin-left: 25px;
+  }
+  #intuitlogo {
+    max-width: 75px;
+  }
+  #jpl-date {
+    margin-left: 90px;
+  }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  #cit {
+    margin-left: 100px;
+  }
+  #scheme {
+    margin-left: -20px;
   }
 }

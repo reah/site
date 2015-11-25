@@ -8,11 +8,14 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<!-- <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"> -->
+	<link rel="stylesheet" href="./bootstrap.min.css">
 	<!-- jQuery library -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
+	<script src="./jquery.js"></script>
 	<!-- Latest compiled and minified JavaScript -->
-	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	<!-- <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script> -->
+	<script src="./bootstrap.min.js"></script>
 	<!-- Custom CSS -->
 	<link rel="stylesheet" href="scrolling-nav.css">
 	<link rel="stylesheet" type="text/css" href="index.css">
@@ -60,7 +63,7 @@
 					<h1>Resume</h1>
 				</div>
 			</div>
-			<div class="col-sm-3 col-md-3 col-lg-2">
+			<div class="col-xs-12 col-sm-3 col-md-3 col-lg-2">
 				<div class="row">
 					<div class="resume-section-header" id="profiles">
 						profiles
@@ -157,12 +160,12 @@
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-xs-10 col-sm-5 col-md-4 col-lg-3" id="resume-item-uni">
+						<div class="col-xs-8 col-sm-5 col-md-4 col-lg-3" id="resume-item-uni">
 							<!-- University of California, Berkeley -->
 							<span class="logo-container"><img id="seal" src="seal.png"></span>
-							<span class="logo-container"><img id="berkeley" src="berkeley-gold.png"></span>
+							<span class="logo-container"><img id="berkeley" src="berkeley-blue.png"></span>
 						</div>
-						<div class="col-xs-2 col-sm-3 col-sm-offset-4 col-md-4 col-md-offset-4 col-lg-offset-5 date" id="uni-date">December 2014</div>
+						<div class="col-xs-4 col-sm-3 col-sm-offset-4 col-md-4 col-md-offset-4 col-lg-offset-5 date" id="uni-date">December 2014</div>
 					</div>
 					<div class="row">
 						<div class="col-xs-12 col-sm-8 col-md-6 col-lg-5" id="resume-item-major">B.S. Electrical Engineering & Computer Science</div>
@@ -171,10 +174,10 @@
 						<div class="col-xs-12 col-sm-8 col-md-6 col-lg-5" id="resume-item-ums">Undergraduate Merit Scholarship Recipient</div>
 					</div>
 					<div class="row">
-						<div class="col-xs-12 col-sm-4 col-md-3" id="gpa">GPA: 3.6 / 4.0</div>
+						<div class="col-xs-7 col-sm-4 col-md-3" id="gpa">GPA: 3.6 / 4.0</div>
 					</div>
 					<div class="row">
-						<div class="col-xs-12 col-sm-7 col-md-5 col-lg-4" id="lavc"><em>past</em> Los Angeles Valley College</div>
+						<div class="col-xs-10 col-sm-7 col-md-5 col-lg-4" id="lavc"><em>past</em> Los Angeles Valley College</div>
 					</div>
 					<div class="row">
 						<div class="resume-section-header col-xs-2" id="experience">
@@ -183,7 +186,7 @@
 					</div>
 					<div class="row">
 						<div class="col-xs-12 col-sm-9 col-md-7 col-lg-6" id="resume-item-ibmwatson">
-							<span class="logo-container"><img id="ibmlogo" src="ibmwatsongroup.png"></span> &nbsp;, &nbsp; New York City <em>NY</em>
+							<span class="logo-container"><img id="ibmlogo" src="ibmwatsongroup-color.png"></span> &nbsp;, &nbsp; New York City <em>NY</em>
 						</div>
 						<div class="col-xs-3 col-md-4 col-md-offset-1 col-lg-offset-2 date">6/2015 &#8210; present</div>
 					</div>
@@ -221,12 +224,12 @@
 										</ul>
 									</div>
 									<div class="row">
-										<div class="col-xs-12 col-sm-10 col-md-8 col-lg-6" id="resume-item-jpl">
+										<div class="col-xs-10 col-sm-10 col-md-7 col-lg-6" id="resume-item-jpl">
 											<span class="logo-container"><img id="jpllogo" src="nasa-color.png"></span><span id="nasa"> &nbsp; Jet Propulsion Laboratory</span>
 											<div id="cit">California Institute of Technology</div>
 											<!-- <span id="nasajpl">NASA Jet Propulsion Laboratory</span>, &nbsp; Pasadena <em>CA</em> -->
 										</div>
-										<div class="col-xs-3 col-sm-2 col-md-3 col-lg-2 col-lg-offset-2 date" id="jpl-date">5/2013 &#8210; 8/2013</div>
+										<div class="col-xs-3 col-sm-2 col-md-3 col-lg-2 col-md-offset-1 col-lg-offset-3 date" id="jpl-date">5/2013 &#8210; 8/2013</div>
 									</div>
 									<div class="row">
 										<div class="col-xs-12 col-md-8 col-lg-6" id="msl">Mars Science Laboratory: Software Engineer Intern</div>
@@ -257,24 +260,24 @@
 														</div>
 													</div>
 													<div class="row">
-														<div class="col-xs-12 col-md-5 col-lg-4">
+														<div class="col-xs-12 col-sm-5 col-md-5 col-lg-4">
 															<span id="twitter">Twitter Trends</span>, <em>Python</em>
 														</div>
 													</div>
 													<div class="row">
-														<div class="col-xs-12 col-md-10 col-md-offset-1">
+														<div class="col-xs-12 col-sm-11 col-sm-offset-0 col-md-10 col-md-offset-1">
 															<li class="bullets project-bullet"> Developed an analyzation & visualization tool for
 																Twitter data, geographically mapping tweets according to their
 																location and analyzing target word correlation.</li>
 															</div>
 														</div>
 														<div class="row">
-															<div class="col-xs-12 col-md-6 col-lg-5">
+															<div class="col-xs-12 col-sm-6 col-md-6 col-lg-5">
 																<span id="scheme">Scheme Interpreter</span>, <em>Python</em>
 															</div>
 														</div>
 														<div class="row">
-															<div class="col-xs-12 col-md-10 col-md-offset-1">
+															<div class="col-xs-12 col-sm-11 col-sm-offset-0 col-md-10 col-md-offset-1">
 																<li class="bullets project-bullet"> Developed a Scheme interpreter, parsing expressions
 																	& tokenizing primitives/procedures while validating against an embedded
 																	test framework in real-time.</li>
@@ -286,7 +289,7 @@
 																</div>
 															</div>
 															<div class="row">
-																<div class="col-xs-12 col-md-10 col-md-offset-1 courses">
+																<div class="col-xs-12 col-sm-12 col-sm-offset-0 col-md-10 col-md-offset-1 courses">
 																		Advanced Concepts & Principles of Computer System Engineering, Algorithms,
 																		Analog & Digital Circuit Design, Artificial Intelligence, Computer Architecture
 																		& Organization, Data Structures, Database Systems, Differential Equations,
